@@ -228,7 +228,8 @@ if (input$obj == "choose_n") {
       
       a1b1 <- a1*b1
       a2b2 <- a2*b2
-      diff <- a1*b1 - a2*b2
+      #use abs values here for my model
+      diff <- abs(a1*b1) - abs(a2*b2)
       
       # Calculate confidence intervals
       low <- (1 - (conf / 100)) / 2
