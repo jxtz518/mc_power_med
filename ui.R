@@ -17,7 +17,7 @@ fluidPage(theme = 'spacelab.css', #id = "page",
       h3("Monte Carlo Power Analysis for Indirect Effects"),
       p("Written by Alexander M. Schoemann (",
         a(href="mailto:schoemanna@ecu.edu","Contact"),
-        "), Aaron J. Boulton, & Stephen D. Short")
+        "), Aaron J. Boulton, & Stephen D. Short, modified by Yuqi")
     )
   ),
   
